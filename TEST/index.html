@@ -12,6 +12,7 @@
         srclang="i0036ue87xo.51007.vtt"
         type="text/srt"
         src="i0036ue87xo.51007.vtt"
+        default
       ></track>
 
 
@@ -25,7 +26,7 @@
 
 <track label="Thai" kind="subtitles" srclang="i0036ue87xo.51003.vtt" type="text/srt" src="i0036ue87xo.51003.vtt"></track>
 <track label="Indonesian" kind="subtitles" srclang="i0036ue87xo.51005.vtt" type="text/srt" src="i0036ue87xo.51005.vtt"></track>
-<track default label="Khmer" kind="subtitles" srclang="i0036ue87xo.51009.vtt" type="text/srt" src="i0036ue87xo.51009.vtt"></track>
+<track label="Khmer" kind="subtitles" srclang="i0036ue87xo.51009.vtt" type="text/srt" src="i0036ue87xo.51009.vtt"></track>
 
 
     </video>
@@ -33,7 +34,7 @@
   <script>
     var video = document.getElementById("video");
     var videoSrc =
-      "video1/test.m3u8";
+      "hls/720.m3u8";
     if (Hls.isSupported()) {
       var hls = new Hls();
       hls.loadSource(videoSrc);
